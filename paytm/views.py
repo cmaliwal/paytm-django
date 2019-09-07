@@ -3,7 +3,7 @@ from django.http import HttpResponse
 from django.utils.translation import get_language
 from django.views.decorators.csrf import csrf_exempt
 from django.contrib.auth.decorators import login_required
-from django.conf import settingss
+from django.conf import settings
 from . import Checksum
 from paytm.models import PaytmHistory
 # Create your views here.
